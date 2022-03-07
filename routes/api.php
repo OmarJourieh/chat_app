@@ -19,5 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get("test", function() {
-    return "Hello Mr. Ehab!";
+    return "Hello Mr. Ehab! (THIS IS AN EDIT)";
 });
